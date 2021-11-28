@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.1/css/all.min.css" integrity="sha512-9my9Mb2+0YO+I4PUCSwUYO7sEK21Y0STBAiFEYoWtd2VzLEZZ4QARDrZ30hdM1GlioHJ8o8cWQiy8IAb1hy/Hg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- js -->
+    <script defer src="./js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.css" />
+    <label for=""></label>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-8 col-sm-12">
+                <div class="todoBox">
+                    <h1 class="text-center"><i style="margin-right: 5px;" class="fas fa-check-square align-middle"></i>my todo-s</h1>
+                    <form action="">
+                        <div class="inputForm input-group mb-3 d-flex align-items-center">
+                            <input style="outline: 0rem;" id="noteInput" type="text" class="newTask form-control border-0" value="" placeholder="title" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button id="submit" class="addBtn btn-sm btn-outline-secondary" type="submit">ADD</button>
+                                <a href=""><button type="button" id="edit" class="addBtn btn-sm btn-outline-secondary">EDIT</button></a>
+                            </div>
+                        </div>
+                        <input style="outline: 0rem;" id="DescInput" type="text" class="newTask form-control border-0" value="" placeholder=" description" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <input style="outline: 0rem;" id="dueDate" type="text" class="newTask form-control border-0" value="" placeholder=" due Date" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    </form>
+                    <p>ADD NEW...</p>
+                    <hr>
+                    <ul></ul>
+                    <section>
+                        <ul id="data-container"></ul>
+                        <div id="pagination"></div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: #F9F9F9;
+    padding-top: 5%;
+}
+
+form {
+    margin: 20px 0px;
+}
+
+.todoBox {
+    background: #EFF1F2;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+h1 {
+    font-size: 28px ;
+    text-decoration: underline  solid #1266F1 ;
+    color: #1266F1;
+}
+
+.inputForm {
+    background: #fcfcfc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.newTask {
+    background: #fcfcfc;
+}
+
+.addBtn {
+    background: #1266F1;
+    color: #F9F9F9;
+    border: none;
+    outline: none;
+}
+
+.addBtn:hover {
+    background: #1268f1a1;
+    color: #fcfcfc;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 0;
+    color: #2B2B2B;
+}
+
+hr {
+    background: #9E9E9E;
+    margin: 10px 0;
+}
+
+li {
+    margin-top: 25px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li i {
+    font-size: 14px;
+}
+
+.pencilBtn {
+    color: #39C0ED;
+    transition: 0.3s;
+}
+
+.trashBtn {
+    color: #F93154;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.pencilBtn:hover {
+    color: #39c0ed8c;
+}
+
+.trashBtn:hover {
+    color: #f9315288;
+}
+
+#edit {
+    display: none;
+}
+
+input {
+    box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0);
+}
+
+p {
+    font-size: 13px;
+    text-align: center;
+    color: #F44336;
+    visibility: hidden;
+}
